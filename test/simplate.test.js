@@ -3,6 +3,7 @@ var
 	assert = require('assert'),
 	fs = require('fs');
 
+
 function createTemplateFile(content) {
 	// This isn't a very good way to generate random file names.
 	var tmpFilename = '/tmp/simplate-test-' + Math.round(Math.random() * 10000000);
