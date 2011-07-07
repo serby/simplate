@@ -1,7 +1,7 @@
 {
   "name": "piton-simplate",
   "description": "Simple template parser from the piton toolkit",
-  "version": "0.1",
+  "version": "0.0.1",
   "author": "Paul Serby <paul.serby@clock.co.uk>",
   "contributors": [
     { "name": "Paul Serby", "email": "paul.serby@clock.co.uk" }
