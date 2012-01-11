@@ -7,10 +7,12 @@
     { "name": "Paul Serby", "email": "paul.serby@clock.co.uk" }
   ],
   "dependencies": {
-  },
-  "devDependencies": {
-    "expresso": "0.7.2"
-  },
+		"underscore": "1.2.4"
+	},
+	"devDependencies": {
+		"mocha": "0.3.6",
+		"should": "0.3.2"
+	},
   "keywords": ["template"],
   "repository": "git://github.com/PabloSerbo/piton-simplate",
   "main": "index",
