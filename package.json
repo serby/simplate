@@ -1,7 +1,7 @@
 {
 	"name": "piton-simplate",
 	"description": "Simple template parser from the piton toolkit",
-	"version": "0.1",
+	"version": "0.1.0",
 	"author": "Paul Serby <paul.serby@clock.co.uk>",
 	"contributors": [
 		{ "name": "Paul Serby", "email": "paul.serby@clock.co.uk" }
@@ -10,14 +10,14 @@
 		"underscore": "1.2.4"
 	},
 	"devDependencies": {
-		"mocha": "0.3.6",
-		"should": "0.3.2"
+		"mocha": ">=0.9.0",
+		"should": ">=0.4.2"
 	},
 	"keywords": ["template"],
 	"repository": "git://github.com/PabloSerbo/piton-simplate",
 	"main": "index",
 	"scripts": {
-		"test": "make test",
+		"test": "mocha -R spec -r should",
 		"prepublish" : "npm prune"
 	},
 	"engines": { "node": ">= 0.4.6 < 0.7.0" }
