@@ -1,7 +1,7 @@
 {
 	"name": "simplate",
 	"description": "Simple file based template parser",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"author": "Paul Serby <paul.serby@clock.co.uk>",
 	"contributors": [
 		{ "name": "Paul Serby", "email": "paul.serby@clock.co.uk" }
