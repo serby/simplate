@@ -1,26 +1,35 @@
-# piton-simplate - Light weight template parser
+# simplate - Lightweight async template parser
 
-A super light weight async template parser for nodejs
+[![build status](https://secure.travis-ci.org/serby/simplate.png)](http://travis-ci.org/serby/simplate)
+
+A super lightweight async template parser for nodejs
 
 ## Installation
 
-	$ npm install piton-simplate
+	$ npm install simplate
 
 ## Usage
 
 File: fileToParse.txt:
 
-	Hello #{NAME}
+    Hello #{NAME}
 
 Code:
 
-	var fileToParse = 'fileToParse.txt';
-	simplate.parse(fileToParse, { NAME: 'Jim'}, function(error, content) {
-		console.log(content); // Will output "Hello Jim"
-	});
+```js
+
+var fileToParse = 'fileToParse.txt'
+  , simplate = require('simplate');
+
+simplate.parse(fileToParse, { NAME: 'Jim'}, function(error, content) {
+  console.log(content); // Will output "Hello Jim"
+});
+
+```
 
 ## Credits
-[Paul Serby](https://github.com/serby/)
+[Paul Serby](https://github.com/serby/) follow me on [twitter](http://twitter.com/PabloSerbo)
+
 [Adam Duncan](https://github.com/aduncan88/)
 
 ## Licence

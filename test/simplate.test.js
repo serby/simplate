@@ -1,5 +1,5 @@
 var
-	simplate = require('../../piton-simplate'),
+	simplate = require('..'),
 	fs = require('fs');
 
 function createTemplateFile(content) {
@@ -66,7 +66,5 @@ describe('simplate', function() {
 				done();
 			});
 		});
-
 	});
-
 });
