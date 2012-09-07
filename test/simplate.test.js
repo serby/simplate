@@ -17,7 +17,7 @@ describe('simplate', function() {
 
 		it('with non-existant file fails with error', function(done) {
 			simplate.parse(null, {}, function(error, data) {
-				error.should.not.equal(null);
+				error.should.be.an.instanceOf(Error);
 				done();
 			});
 		});
