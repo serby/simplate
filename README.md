@@ -1,6 +1,6 @@
 # simplate - Lightweight async template parser
 
-[![build status](https://secure.travis-ci.org/serby/simplate.png)](http://travis-ci.org/serby/simplate)
+[![build status](https://secure.travis-ci.org/serby/simplate.png)](http://travis-ci.org/serby/simplate) [![Greenkeeper badge](https://badges.greenkeeper.io/serby/simplate.svg)](https://greenkeeper.io/)
 
 A super lightweight async template parser for nodejs
 
