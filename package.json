@@ -11,8 +11,8 @@
 		"underscore": "~1"
 	},
 	"devDependencies": {
-		"mocha": "~1",
-		"should": "~1",
+		"mocha": "~6.1.4",
+		"should": "~13.2.3",
 		"async": "*"
 	},
 	"keywords": ["template"],
